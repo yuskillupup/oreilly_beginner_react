@@ -11,6 +11,7 @@ var AnswerMultipleChoiceQuestion = React.createClass({
     choices: React.PropTypes.array.isRequired,
     onCompleted: React.PropTypes.func.isRequired
   },
+  // 関数の定義
   getInitialState: function() {
     return {
       id: uniqueId('multiple-choice-'),
